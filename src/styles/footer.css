@@ -1,0 +1,102 @@
+.footer {
+    background-color:#3a025d ;
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+  
+  .footer__logo a i {
+    /* background-color: white; */
+    color: white !important;
+    font-weight: 400;
+  }
+  
+  .footer__logo span {
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .footer__logo-content {
+    color: gainsboro;
+    margin-top: 15px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+  .quick__link {
+    border: none !important;
+    background: transparent !important;
+  }
+  
+  .quick__link a {
+    color:gainsboro;
+    text-decoration: none;
+    font-weight: 300;
+    transition: 0.3s;
+  }
+  
+  .quick__link a:hover {
+    color:#eea3bc ;
+  }
+  .footer__link-title {
+    color: #fff;
+  }
+  
+  .office__info {
+    color: rgba(255, 255, 255, 0.715);
+    font-weight: 300;
+  }
+  
+  .newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border: 1px solid #7c8a972f;
+    border-radius: 50px;
+    background-color:#19062751 ;
+  }
+  
+  .newsletter input {
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: .8rem;
+  }
+
+  
+  .newsletter span i {
+    color: white;
+  }
+  .section__description{
+    color: #9d9c9c;
+    font-size: .9rem;
+    
+  }
+  
+  .footer__bottom {
+    border-top: 1px solid #7c8a972f;
+   
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .footer__logo-content {
+      font-size: 0.8rem;
+    }
+  
+    .quick__link,
+    .office__info {
+      font-size: 0.8rem;
+      line-height: 1.5rem;
+    }
+  
+    .footer__link-title {
+      font-size: 1rem;
+      margin-top: 15px;
+    }
+  
+    .footer__bottom p {
+      font-size: 0.7rem;
+    }
+  
+    
+  }
