@@ -3,7 +3,7 @@ import CommonSection from "../components/UI/commonSection";
 import Helmet from "../components/helmet/helmet";
 import AboutSection from "../components/UI/aboutSection";
 import BecomeDriver from "../components/UI/BecomeDriver";
-import OurMembers from "../components/UI/ourmembers";
+import OurMembers from "../components/UI/ourMembers";
 
 import driveImg from "../assets/all-images/drive.jpg";
 import "../styles/about.css";
