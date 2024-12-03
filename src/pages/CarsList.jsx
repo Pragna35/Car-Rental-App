@@ -5,8 +5,9 @@ import CarItem from "../components/UI/carItem";
 import { Container, Row, Col } from "reactstrap";
 const CarsList = () => {
   return (
-    <Helmet>
+    <Helmet title="Cars">
       <CommonSection title="Cars List" />
+
       <section>
         <Container>
           <Row>
