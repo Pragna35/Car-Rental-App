@@ -1,20 +1,30 @@
-.find__cars-left {
+/* .find__cars-left {
     background: linear-gradient(rgba(190, 21, 122, 0.745),rgba(190, 21, 122, 0.745)),
       url("../assets/all-images/toyota-offer-2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 65px 35px;
-  }
-  
+  } */
+/*   
   .find__cars-left h2 {
     font-weight: 600;
     font-size: 2.8rem;
-  }
+  } */
   
   .form__group {
     width: 30%;
     margin-bottom: 0;
+  }
+
+  .form__group label b,.select__group label b{
+    color: red;
+
+  }
+  .form__group label,.select__group label{
+   font-size:1rem;
+   font-weight: bold;
+   margin-bottom: 10px;
   }
   
   .form__group input {
@@ -30,7 +40,7 @@
   
   .form {
     background: #fff;
-    padding-top: 55px;
+    padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 15px;
     padding-right: 15px;
@@ -66,20 +76,34 @@
     box-shadow: 5px 5px 15px -5px #7c8a97;
   }
   
-  .journey__time::before {
-    content: "Journey time";
+  /* .journey__time::before {
     margin-right: 0.8rem;
     color: #7c8a97;
-  }
+  } */
   
   .find__car-btn {
     background-color:#350561  !important;
-    color: #fff !important;
-    padding: 8px 15px;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 10px;
     width: 100%;
     border: none;
     outline: none;
   }
+  .notification_body{
+    background-color: rgb(255, 64, 0);
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.notification_btn{
+  border:none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-left: 60px;
+}
   
   @media only screen and (max-width: 992px) {
     .find__cars-left {
@@ -96,13 +120,17 @@
   
     .form__group input,
     .select__group select {
-      padding: 7px 10px;
+      padding: 10px 10px;
       font-size: 0.8rem;
     }
   
     .hero__form {
       /* position property  */
       bottom: -100px;
+    }
+    .find__car-btn{
+      padding: 10px 15px;
+      margin-top: 30px;
     }
   }
   
@@ -115,9 +143,17 @@
     }
   
     .form {
-      padding: 20px 10px;
+      padding: 30px 10px;
+    }
+    .form__group label,.select__group label{
+      display: none;
+    }
+    .find__car-btn{
+      padding: 8px 15px;
+      margin-top: 4px;
     }
   }
+
   
   @media only screen and (max-width: 576px) {
     .form__group {
@@ -146,6 +182,9 @@
   
     .hero__form {
       bottom: -250px;
+    }
+    .form__group label,.select__group label{
+      display: none;
     }
   }
   

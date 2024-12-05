@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import "../../styles/carItem.css";
 
 const CarItem = (props) => {
-  //   console.log(props);
-  //getting props from home page (there we imported carData)
+  //console.log(props, "item");
+  //getting props from carList page (there we imported carData)
   const { imgUrl, model, carName, automatic, speed, price } = props.item;
 
   return (

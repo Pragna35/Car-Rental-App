@@ -13,7 +13,7 @@ const CarDetails = () => {
   //console.log(carItem, "slug");
 
   const singleCarItem = carData.find((item) => item.carName == carItem);
-  // console.log(singleCarItem, "ii");
+  console.log(singleCarItem, "ii");
 
   useEffect(() => {
     window.scrollTo(0, 0);

@@ -9,20 +9,32 @@
   
   .become__driver button {
     background-color: #fff;
+   padding: 10px 16px;
+   border-radius: 10px;
+   
+  }
+  .become__driver button a{
+    text-decoration: none;
     color: #3a025d;
     font-weight: 600;
   }
   .become__driver button:hover{
-    background-color: black;
-    color: #fff;
+    background-color:#3a025d ;
+ 
+   
   }
+  .become__driver button a:hover{
+    color: white;
+  }
+
+
   
   .become__driver-title {
     font-size: 2.8rem;
     color: #fff;
     line-height: 65px;
   }
-  
+
   @media only screen and (max-width: 992px) {
     .become__driver-title {
       font-size: 1.5rem;
@@ -43,6 +55,7 @@
     .become__driver-btn {
       font-size: 0.8rem !important;
     }
+
   }
   
   @media only screen and (max-width: 576px) {

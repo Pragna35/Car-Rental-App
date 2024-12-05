@@ -110,7 +110,7 @@ const Header = () => {
               className="d-flex align-items-center justify-content-end"
             >
               <button className="call_btn btn ">
-                <Link to="#">
+                <Link to="/contact">
                   <i class="ri-phone-line"></i> Request a call
                 </Link>
               </button>

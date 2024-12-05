@@ -2,7 +2,7 @@ import CommonSection from "../components/UI/commonSection";
 import Helmet from "../components/helmet/helmet";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Form, FormGroup, Input } from "reactstrap";
-
+import { useEffect } from "react";
 import "../styles/contact.css";
 
 const socialLinks = [
@@ -23,7 +23,12 @@ const socialLinks = [
     icon: "ri-twitter-line",
   },
 ];
+
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // This ensures the page scrolls to the top when you navigate to this page
+  }, []);
+
   return (
     <Helmet title="Contact ">
       <CommonSection title="Contact Us"></CommonSection>
