@@ -48,6 +48,14 @@
     font-size: 1.2rem;
     font-weight: 600;
   }
+
+  .ruppe_sign{
+    font-size: 1.4rem;
+    margin-right: 6px;
+    color: rgb(224, 141, 8);
+    /* color: green; */
+  }
+  
   
   @media only screen and (max-width: 992px) {
     .car__item h4 {
@@ -72,6 +80,9 @@
     .car__item-btn {
       padding: 5px 10px;
       font-size: 0.9rem;
+    }
+    .ruppe_sign{
+      font-size: 1.1rem;
     }
   }
   

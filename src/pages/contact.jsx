@@ -15,7 +15,7 @@ const socialLinks = [
     icon: "ri-instagram-line",
   },
   {
-    url: "#",
+    url: "https://www.linkedin.com/in/pragna-murkiker-7ab655294/",
     icon: "ri-linkedin-line",
   },
   {

@@ -30,13 +30,14 @@
     padding: 2px 4px;
     
   }
-  .top_header_right a {
-    text-decoration: none;
+  .top_header_right button {
+    border: none;
+  background-color: transparent;
     color: #fff;
     font-size: 1rem;
   }
   
-  .top_header_right a:hover {
+  .top_header_right button:hover {
     color: #fff;
   }
 
@@ -101,8 +102,9 @@
   .main_navbar{
     background-color: #3a025d;
     padding: 20px 0px;
-    
+  
   }
+
   .mobile_menu{
     display: none;
   }
@@ -152,10 +154,22 @@
   .menuItem_active{
     color:#eea3bc;
   }
+  .profile_section{
+   
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+  }
+  .profile_name{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:rgb(194, 238, 255) ;
+    -webkit-text-stroke: .6px black;
+  }
 
   @media only screen and (max-width: 768px) {
     .top_header,
-    .middle_header,
+    .middle_header,.header_location
     .nav_search {
       display: none;
     }
