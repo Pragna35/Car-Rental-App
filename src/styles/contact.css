@@ -1,9 +1,10 @@
 .social__link-icon {
     text-decoration: none;
-  
+  margin-right: 8px;
     color: #3a025d;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.2rem;
+   
   }
   
   .contact__btn {
@@ -13,6 +14,13 @@
     border: none;
     outline: none;
     border-radius: 5px;
+  }
+  .social__link-icon:hover{
+  padding:0px 6px;
+  border-radius: 10px;
+   background-color: #3a025d;
+   color: white;
+   transition: 1s;
   }
   
   @media only screen and (max-width: 768px) {

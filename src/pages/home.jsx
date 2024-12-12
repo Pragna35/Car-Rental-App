@@ -11,6 +11,7 @@ import Testimonial from "../components/UI/testimonial";
 import BlogList from "../components/UI/blogList";
 
 import Helmet from "../components/helmet/helmet";
+
 const Home = () => {
   return (
     <Helmet title="Home">

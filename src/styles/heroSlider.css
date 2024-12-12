@@ -26,10 +26,9 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
-  .hero__slider {
+ .hero__slider {
     overflow: hidden;
-  }
+  } 
   
   .slider__content {
     padding-top: 150px;
@@ -83,4 +82,6 @@
       font-size: 1.5rem;
     }
   }
+
+
   

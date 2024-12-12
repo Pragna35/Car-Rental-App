@@ -128,6 +128,7 @@
       /* position property  */
       bottom: -100px;
     }
+    
     .find__car-btn{
       padding: 10px 15px;
       margin-top: 30px;
@@ -156,6 +157,7 @@
 
   
   @media only screen and (max-width: 576px) {
+  
     .form__group {
       width: 100%;
       margin: auto;

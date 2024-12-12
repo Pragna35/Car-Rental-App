@@ -9,4 +9,8 @@
       display: none;
     }
   }
-  
+  @media only screen and (max-width: 576px) {
+    .about__page-img {
+      display: none;
+    }
+  }
