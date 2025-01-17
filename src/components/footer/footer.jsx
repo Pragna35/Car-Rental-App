@@ -31,7 +31,7 @@ const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
   return (
-    <footer className="footer">
+    <footer className="footer ">
       <Container>
         <Row>
           <Col lg="4" md="4" sm="12">
@@ -47,10 +47,11 @@ const Footer = () => {
               </h1>
             </div>
             <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequuntur, distinctio, itaque reiciendis ab cupiditate harum ex
-              quam veniam, omnis expedita animi quibusdam obcaecati mollitia?
-              Delectus et ad illo recusandae temporibus?
+              We offers a big range of vehicles for all your driving needs. Our
+              diverse range of well-maintained, high-quality vehicles ensures
+              that you’ll find the ideal option for comfort, convenience, and
+              performance. We have the perfect cars to meet your needs."Trust us
+              to provide the right vehicle for all your journeys, big or small."
             </p>
           </Col>
 
@@ -94,7 +95,7 @@ const Footer = () => {
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
                 <i class="ri-copyright-line"></i>Copyright {year}, Developed by
-                dulquer salmaan. All rights reserved.
+                Pragna Murkiker. All rights reserved.
               </p>
             </div>
           </Col>

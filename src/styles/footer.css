@@ -2,6 +2,7 @@
     background-color:#3a025d ;
     padding-top: 50px;
     padding-bottom: 15px;
+
   }
   
   .footer__logo a i {
@@ -20,6 +21,7 @@
     margin-top: 15px;
     line-height: 30px;
     font-weight: 400;
+    text-align: justify;
   }
   .quick__link {
     border: none !important;
